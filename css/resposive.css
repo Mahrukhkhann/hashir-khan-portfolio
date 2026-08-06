@@ -1,0 +1,25 @@
+.hero h1{
+    font-size:clamp(42px, 5vw, 60px);
+    line-height:1.15;
+}
+@media (max-width:991px){
+
+.hero-container{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-content{
+    max-width:100%;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+.hero-image{
+    width:320px;
+    height:400px;
+}
+
+}

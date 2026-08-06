@@ -10,32 +10,38 @@
       <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-
-        <nav class="navbar">
-        <div class="logo">HK<span>.</span></div>
-
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="menu-btn">☰</div>
-
-
-    </nav>
 </head>
 <body>
+    <div class="progress-bar"></div>
+<header>
+
+<nav class="navbar">
+
+    <div class="logo">HK<span>.</span></div>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="menu-btn">☰</div>
+
+</nav>
+
+</header>
                        <!-- Hero Section -->
-<section class="hero" id="home">
+<section class="hero reveal" id="home">
 
     <div class="hero-container">
 
         <div class="hero-content">
 
             <p class="subtitle">
-                Civil Engineer | Akber & Associates
+                Civil Engineer 
             </p>
 
             <h1>
@@ -49,7 +55,7 @@
                 and project management.
             </p>
 
-
+<div>
             <div class="hero-buttons">
 
                 <a href="#projects" class="btn">
@@ -61,13 +67,14 @@
                 </a>
 
             </div>
+            </div>
 
         </div>
 
 
         <div class="hero-image">
 
-            <img src="images/hashir.jpg" alt="Hashir Khan Civil Engineer">
+            <img src="images/civil3.jpg" alt="Hashir Khan Civil Engineer">
 
         </div>
 
@@ -76,11 +83,11 @@
     </section>
 
                        <!-- About Section -->
-<section class="about" id="about">
+<section class="about reveal" id="about">
     <div class="about-container">
         <div class="about-image">
 
-            <img src="images/about.jpg" alt="Civil Engineering Work"></div>
+            <img src="images/civil1.jpg" alt="Civil Engineering Work"></div>
 
 
 
@@ -127,7 +134,7 @@
 </section>
 
                       <!-- Experience Section -->
-<section class="experience" id="experience">
+<section class="experience reveal" id="experience">
 
 
     <div class="section-title">
@@ -143,7 +150,7 @@
     <div class="stats-container">
         <div class="stat-box">
 
-            <h3>4+</h3>
+           <h3 class="counter" data-target="4">0</h3>
             <p>Years Experience </p>
 
         </div>
@@ -152,7 +159,7 @@
 
         <div class="stat-box">
 
-            <h3>50+</h3>
+            <h3 class="counter" data-target="50">0</h3>
             <p> Projects Completed</p>
 
         </div>
@@ -161,7 +168,8 @@
 
         <div class="stat-box">
 
-            <h3>20+</h3>
+            
+            <h3 class="counter" data-target="20">0</h3>
             <p> Clients Served</p>
 
         </div>
@@ -170,7 +178,7 @@
 
         <div class="stat-box">
 
-            <h3>100%</h3>
+            <h3 class="counter" data-target="100">0</h3>
             <p>Quality Commitment</p>
 
         </div>
@@ -198,9 +206,354 @@
         </p>
     </div>
 </section>  
+                
+                <!-- Services Section -->
+<section class="services reveal" id="services">
+
+
+    <div class="section-title">
+
+        <p class="section-subtitle">Services</p>
+        <h2>Engineering Solutions</h2>
+
+    </div>
+
+    <div class="services-container">
+
+        <div class="service-card">
+
+            <div class="icon">🏗️</div>
+            <h3> Structural Engineering</h3>
+            <p>
+                Providing structural planning and engineering
+                solutions focused on safety and durability.
+            </p>
+
+        </div>
 
 
 
+
+        <div class="service-card">
+            <div class="icon">📐</div>
+
+            <h3> Project Planning</h3>
+            <p>
+                Efficient planning and coordination to ensure
+                smooth project execution.
+            </p>
+        </div>
+
+
+
+
+        <div class="service-card">
+
+            <div class="icon">🏢</div>
+
+            <h3> Construction Management </h3>
+
+            <p>
+                Managing construction activities while maintaining
+                quality and timelines.
+            </p>
+
+        </div>
+
+        <div class="service-card">
+            <div class="icon">🧱 </div>
+
+            <h3> Site Supervision</h3>
+            <p>
+                Monitoring site progress and ensuring proper
+                construction standards.
+            </p>
+
+        </div>
+
+        <div class="service-card">
+            <div class="icon">📋</div>
+
+            <h3> Quantity Estimation</h3>
+            <p>
+                Accurate material estimation and project cost
+                planning.
+            </p>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <div class="icon">✅</div>
+            <h3> Quality Control</h3>
+            <p>
+                Maintaining construction quality through
+                inspection and supervision.
+            </p>
+
+        </div>
+    </div>
+</section>
+                   <!-- Projects Section -->
+<section class="projects reveal" id="projects">
+
+    <div class="section-title">
+        <p class="section-subtitle">Projects</p>
+        <h2>Featured Work </h2>
+    </div>
+
+    <div class="projects-container">
+
+        <div class="filter-buttons">
+
+    <button class="filter-btn active" data-filter="all">
+        All
+    </button>
+
+    <button class="filter-btn" data-filter="residential">
+        Residential
+    </button>
+
+    <button class="filter-btn" data-filter="commercial">
+        Commercial
+    </button>
+
+    <button class="filter-btn" data-filter="infrastructure">
+        Infrastructure
+    </button>
+
+</div>
+
+
+        <div class="project-card" data-category="residential">
+            <img src="images/civil4.png" alt="Residential Project">
+            
+            <div class="project-info">
+                <h3> Residential Building</h3>
+                <p> Residential Construction</p>
+                <span>Karachi, Pakistan</span>
+
+            </div>
+        </div>
+
+        <div class="project-card" data-category="commercial">
+            
+            <img src="images/project-2.jpg" alt="Commercial Project">
+            <div class="project-info">
+
+                <h3>Commercial Complex</h3>
+                <p>Commercial Development</p>
+                <span> Karachi, Pakistan</span>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="project-card" data-category="infrastructure">
+
+            <img src="images/project-3.jpg" alt="Infrastructure Project">
+            <div class="project-info">
+
+                <h3> Infrastructure Project</h3>
+
+                <p>Structural Engineering</p>
+
+                <span> Pakistan</span>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+               <!-- Testimonials Section -->
+<section class="testimonials reveal" id="testimonials">
+
+    <div class="section-title">
+
+        <p class="section-subtitle">
+            Testimonials
+        </p>
+
+        <h2>What Clients Say</h2>
+
+    </div>
+
+
+    <div class="testimonial-container">
+
+
+        <div class="testimonial-card">
+
+            <p>
+                "Hashir provided excellent supervision
+                and maintained high quality standards
+                throughout the project."
+            </p>
+
+            <h3>Client Name</h3>
+            <span> Project Owner</span>
+
+        </div>
+
+
+
+        <div class="testimonial-card">
+
+            <p>
+                "Professional approach, good planning,
+                and excellent coordination with the team."
+            </p>
+
+            <h3> Client Name</h3>
+            <span> Contractor</span>
+
+        </div>
+        <div class="testimonial-card">
+
+            <p>
+                "Reliable civil engineering services
+                with strong attention to detail."
+            </p>
+
+            <h3> Client Name</h3>
+            <span>Client </span>
+        </div>
+    </div>
+
+</section>
+               <!-- Contact Section -->
+<section class="contact reveal" id="contact">
+
+    <div class="section-title">
+        <p class="section-subtitle">Contact</p>
+        <h2>  Get In Touch</h2>
+    </div>
+
+
+
+    <div class="contact-container">
+        <!-- Form -->
+
+        <form class="contact-form">
+
+            <input type="text"  placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <input type="text" placeholder="Phone Number">
+
+            <select>
+                <option>Select Project Type</option>
+                <option>Residential</option>
+                <option> Commercial</option>
+                <option> Infrastructure</option>
+            </select>
+
+            <textarea placeholder="Your Message"></textarea>
+            <button class="btn"> Send Message</button>
+
+        </form>
+
+
+        <!-- Contact Details -->
+
+        <div class="contact-info">
+            <h3>Hashir Khan</h3>
+            <p>Civil Engineer </p>
+
+
+            <div> 📍 Akber & Associates</div>
+            <div> 📞+92 XXX XXXXXXX</div>
+            <div> ✉ email@example.com</div>
+            <div> 🕒 Mon - Sat | 9 AM - 6 PM</div>
+
+        </div>
+    </div>
+</section>
+                           <!-- Footer -->
+
+<footer class="footer">
+
+
+    <div class="footer-container">
+        <div class="footer-about">
+
+            <h2> HK<span>.</span></h2>
+
+            <p>
+                Hashir Khan is a Civil Engineer at
+                Akber & Associates with 4+ years of
+                experience in construction and project management.
+            </p>
+
+        </div>
+
+
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <a href="#home"> Home</a>
+
+            <a href="#about"> About</a>
+
+            <a href="#projects"> Projects </a>
+
+            <a href="#contact">Contact </a>
+
+        </div>
+
+
+
+        <div class="footer-links">
+
+            <h3> Services</h3>
+
+            <a>Structural Engineering </a>
+
+            <a> Site Supervision</a>
+
+            <a>Project Planning</a>
+
+            <a> Quality Control</a>
+
+        </div>
+
+
+
+        <div class="footer-links">
+
+            <h3> Contact </h3>
+
+            <a>Akber & Associates</a>
+
+            <a> +92 XXX XXXXXXX</a>
+
+            <a>email@example.com</a>
+
+        </div>
+
+
+    </div>
+
+ <div class="copyright">© 2026 Hashir Khan. All Rights Reserved. </div>
+
+</footer>
+<button class="top-btn">
+    ↑
+</button>
+
+<!-- Project Lightbox -->
+<div class="lightbox">
+
+    <span class="close-lightbox">&times;</span>
+    <img class="lightbox-image" src="" alt="Project Image">
+
+</div>
     <!-- JavaScript -->
     <script src="js/script.js"></script>
 
