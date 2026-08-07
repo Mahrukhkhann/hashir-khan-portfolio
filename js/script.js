@@ -201,7 +201,7 @@ lightbox.addEventListener("click", (event) => {
     }
 
 });
-                   /* Project Filtering System */
+/* Project Filtering System */
 
 const filterButtons = document.querySelectorAll(".filter-btn");
 const projectCards = document.querySelectorAll(".project-card");
@@ -239,5 +239,81 @@ filterButtons.forEach(button => {
         });
 
     });
+
+});
+/* ===============================
+   Dark / Light Mode Toggle
+================================== */
+
+const themeButton = document.querySelector(".theme-toggle");
+
+const body = document.body;
+
+
+// Load saved theme
+
+const savedTheme = localStorage.getItem("theme");
+
+
+if(savedTheme === "dark"){
+
+    body.classList.add("dark-mode");
+
+    themeButton.textContent = "☀️";
+
+}
+
+
+// Button Click Event
+
+themeButton.addEventListener("click", () => {
+
+
+    body.classList.toggle("dark-mode");
+
+
+    if(body.classList.contains("dark-mode")){
+
+
+        localStorage.setItem("theme","dark");
+
+        themeButton.textContent = "☀️";
+
+
+    }
+
+    else{
+
+
+        localStorage.setItem("theme","light");
+
+        themeButton.textContent = "🌙";
+
+
+    }
+
+
+});
+// Animated Text
+new Typed("#typed-text", {
+
+    strings: [
+        "Civil Engineer",
+        "Construction Planner",
+        "Site Supervisor",
+        "Project Manager",
+        "Quality Control Engineer"
+    ],
+
+    typeSpeed: 60,
+    backSpeed: 35,
+    backDelay: 1500,
+    loop: true
+
+});
+// Loading Screen
+
+window.addEventListener("load",()=>{
+    document.querySelector(".loader").style.display="none";
 
 });
