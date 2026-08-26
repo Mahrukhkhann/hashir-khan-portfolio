@@ -19,7 +19,7 @@ html{
 } */
  :root{
     --primary: #0F172A;      /* Dark Navy */
-    --secondary: #334155;    /* Slate */
+    --secondary: #707070;    /* Slate */
     --accent: #F59E0B;       /* Construction Gold */
     --bg:rgb(237, 237, 237);           /* Main Background */
     --card: #FFFFFF;         /* Cards */
@@ -42,7 +42,7 @@ body.dark-mode{
     --bg:#020617;
     --card:#0F172A;
     --text:#F8FAFC;
-    --text-light:#CBD5E1;
+    --text-light:#dbe0e6;
 
     background:var(--bg);
     color:var(--text);
