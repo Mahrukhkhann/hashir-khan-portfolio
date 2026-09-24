@@ -24,3 +24,25 @@ Technologies Used
  Purpose
 
 This portfolio is designed to present the professional profile of a civil engineer while demonstrating modern frontend development practices using only HTML, CSS, and JavaScript.
+Project Highlights
+
+🏗️ Professional Portfolio
+
+A clean and modern portfolio layout created specifically for a civil engineering professional to showcase experience, expertise, and completed work.
+
+📐 Engineering Services
+
+The website presents the professional services offered, making it easy for visitors to understand the engineer’s areas of expertise.
+
+🏢 Featured Projects
+
+A dedicated project section showcases selected civil engineering projects through an organized and visually appealing gallery.
+
+💼 Experience & Expertise
+
+The portfolio highlights 4+ years of professional experience at Akber & Associates, along with technical skills and engineering knowledge.
+
+⭐ Achievements & Testimonials
+
+Professional achievements and client testimonials are included to build credibility and provide a stronger overview of the engineer’s professional profile.
+
