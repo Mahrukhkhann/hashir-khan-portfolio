@@ -46,3 +46,21 @@ The portfolio highlights 4+ years of professional experience at Akber & Associat
 
 Professional achievements and client testimonials are included to build credibility and provide a stronger overview of the engineer’s professional profile.
 
+📱 Responsive Design
+
+The website is fully responsive and designed to provide a smooth experience across:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile devices
+
+✨ Interactive Elements
+
+JavaScript is used to add interactive features such as:
+
+- Smooth scrolling
+- Animations
+- Form validation
+- Interactive navigation
+- User-friendly interactions
