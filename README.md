@@ -64,3 +64,24 @@ JavaScript is used to add interactive features such as:
 - Form validation
 - Interactive navigation
 - User-friendly interactions
+  
+  Project Structure
+Hashir-Khan-Portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+├── images/
+│   └── project-images
+└── README.md
+Learning Outcomes
+This project demonstrates practical frontend development skills, including:
+Semantic HTML5 structure
+Modern CSS3 styling
+Responsive web design
+JavaScript DOM manipulation
+Form validation
+CSS animations and transitions
+Smooth scrolling
+Mobile-first design principles
+Professional portfolio development
