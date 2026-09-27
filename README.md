@@ -65,7 +65,6 @@ JavaScript is used to add interactive features such as:
 - Interactive navigation
 - User-friendly interactions
   
-  
   Project Structure
 
 Hashir-Khan-Portfolio/
@@ -77,4 +76,40 @@ Hashir-Khan-Portfolio/
 │   └── project-images
 └── README.md
 
+Learning Outcomes
+
+This project demonstrates practical frontend development skills, including:
+
+- Semantic HTML5 structure
+- Modern CSS3 styling
+- Responsive web design
+- JavaScript DOM manipulation
+- Form validation
+- CSS animations and transitions
+- Smooth scrolling
+- Mobile-first design principles
+- Professional portfolio development
+
+Future Improvements
+
+Possible future improvements include:
+
+- Backend-powered contact form
+- Project filtering system
+- Dark/Light mode
+- Dynamic project management
+- Online CV download
+- More advanced animations
+- Database integration
+
+Live Demo
+
+🌐 Website: https://hashirkhann.netlify.app/
+
+Author
+
+Hashir Khan
+Civil Engineer
+4+ Years of Professional Experience
+Akber & Associates
 
